@@ -6,6 +6,7 @@ Cleaned Dataset:
 Time Stamp seperated to Features --> m (month) , date, year, hr, min , mari(AM/PM)
 
 (ELIMINATED "SECONDS" FEATURE)
+
 11 Features used:
 m	,date,	year,	hr,	min,	mari,	FeaA,	FeaB,	FeaC,	FeaD,	FeaE
 
