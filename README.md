@@ -6,10 +6,11 @@ Cleaned Dataset:
 Time Stamp seperated to Features--> m (month) , date, year, hr, min , mari(AM/PM)
 (ELIMINATED "SECONDS" FEATURE)
 11 Features used:
-m	date	year	hr	min	mari	FeaA	FeaB	FeaC	FeaD	FeaE
+m	,date,	year,	hr,	min,	mari,	FeaA,	FeaB,	FeaC,	FeaD,	FeaE
 
 
 Results On Trainset :
+
 Confusion matrix,
 
            class   0       1     2       3      4
