@@ -28,19 +28,25 @@ Overall Trainset accuracy -> 97.83%  (Diagonal elements/total)
 
 
 Furthermore :
+
 1.If Test set accuracy drops alot, model might be overfitting:
-Solution--> a) Add Data
+Solution--> 
+            
+	    a) Add Data
 	    b)Introduce regularization Parameter OR 
 	    c)Reduce features
 	    d)Test set might be coming from different distribution so add that distribution's examples to train set
 	    
-
 2.Examine individual class performace:
   Example, Class 4 prediction performing worst as per train accuracy(93.51%):
-  Solutions-->  a) Add more class 4 dataset examples
-                b) Check whether True labels are correctly labelled
+  Solutions-->  
+  	       
+	       a) Add more class 4 dataset examples
+               b) Check whether True labels are correctly labelled
 
 3. Is human level accuracy not yet reached?
-   Soln--> a) Cross validation set, to tune Hyper-Parameters
+   Soln--> 
+   
+   	   a) Cross validation set, to tune Hyper-Parameters
  	   b) Introduce new features
 	   c) Add Data	
